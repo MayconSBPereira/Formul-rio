@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="./style.css">
+    <title>Formulário</title>
+    <link rel="icon" type="image/x-icon" href="./Imagens/icon.png">
+</head>
+<body>
+    <div class="container_formulario">
+        <h1 class="titulo">Contate-nos</h1>
+        <form class="formulario">
+            <div class="name" id="single_label">
+               <input name="FNAME" type="text" class="input" id="input_nome" required><label for="Nome" id="label1"><b>Nome</b></label>
+            </div>
+            <div class="apelido" id="single_label">
+                <input name="apelido" type="text" class="input" required><label for="Apelido" id="label2"><b>Apelido</b></label>
+            </div>
+            <div class="email" id="single_label">
+                <input name="EMAIL" type="text" class="input" required><label for="email" id="label1"><b>E-mail</b></label>
+            </div>
+            <div class="telemovel" id="single_label">
+                <input id="Telemóvel" type="number" class="input" required><label for="Telemóvel"><b>Telemóvel</b></label>
+            </div>
+        </form>
+        <div class="texto">
+            <label><b>Motivo do Contato:</b></label>
+            <textarea rows="6" style="width: 100%" class="texto_contato" required></textarea>
+        </div>
+        <button type="submit" class="botao">Concluido</button>
+    </div>
+    <div class="icones">
+        <a href="https://www.instagram.com/__batistam/"><img src="./Imagens/instragram-icone.png" width="50px" class="bk_imgs"></a>
+        <br>
+        <a href="https://www.linkedin.com/in/maycon-soares-batista-pereira-7700a1209/"><img src="./Imagens/linkedin2.png" width="50px" class="bk_imgs"></a>
+    </div>
+</body>
+</html>
